@@ -1,0 +1,100 @@
+@media (min-width: 1200px){
+	.container{
+		max-width: 800px;
+	}
+}
+
+@media (max-width: 991px){
+	.sign-up-wrapper .form-detail-wrapper,
+	.sign-in-wrapper .form-detail-wrapper{
+	    flex-direction: column;
+	}
+	.form-detail-wrapper:before{
+		content: none;
+	}
+	.form-detail-wrapper .left-content-wrap,
+	.form-detail-wrapper .right-content-wrap{
+		padding: 0px;
+		width: 100%;
+	}
+	.sign-up-wrapper .form-detail-wrapper .right-content-wrap,
+	.sign-in-wrapper .form-detail-wrapper .right-content-wrap{
+		margin-bottom: 0px;
+	}
+	.main-title-wrap h1 {
+	    font-size: 35px;
+	    margin-bottom: 30px;
+	    padding-bottom: 15px;
+	}
+	.dec-wrap{
+		font-size: 16px;
+	}
+	.main-title-wrap h1:after{
+		height: 3px;
+	}
+	.main-title-wrap {
+	    margin-bottom: 50px;
+	    margin-top: 40px;
+	}
+	.content-holder{
+		padding: 100px 0px 60px;
+	}
+	.dec-wrap br{
+		display: none;
+	}
+	.right-content-wrap figure{
+		display: none;
+	}
+	.site-logo {
+		text-align: left;
+		width: 100%;
+		padding-left: 20px;
+	}
+	.site-logo a {
+	    display: inline-block;
+	    max-width: 40%;
+	}
+	.site-logo a img{
+		width: 100%;
+	}
+	header{
+		position: static;
+		margin-top: 20px;
+	}
+
+	.content-holder{
+		padding: 0px 0px 60px;
+	}
+	.verify-wrap.step-one-wrap form{
+		min-height: 0px;
+	}
+}
+@media (max-width: 481px){
+	.password-recovery-wrap .form-inline .form-group{
+		width: 100%;
+		margin: 0px 0px 15px;
+	}
+	.form-detail-wrapper .form-group{
+		margin-bottom: 30px;
+	}
+	.password-recovery-wrap .form-inline{
+		margin-bottom: 0;
+	}
+	.main-content-wrapper.sign-up-wrapper .form-detail-wrapper form :nth-child(4){
+		margin: 0;
+	}
+	.main-content-wrapper.sign-up-wrapper .form-detail-wrapper form :nth-child(4) .form-group{
+		width: 100%;
+		margin: 0px 0px 30px;
+	}
+	.form-detail-wrapper button{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.main-title-wrap h1{
+		font-size: 30px;
+	}
+	.password-length.error-msg{
+		margin-right: 0;
+	}
+}
